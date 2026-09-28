@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/edgemeta",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Edge CSV/TSV meta tables for quick inspection and cleanup.",
+  "bin": {
+    "edgemeta": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/edgemeta.git"
+  },
+  "homepage": "https://theworker02.github.io/edgemeta/",
+  "keywords": [
+    "edge",
+    "meta",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
